@@ -1,29 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-96179028-7"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-
-		// Disable GA on dev
-		const disableGtag = !(location.hostname === `andreasbm.github.io` || location.hostname === `webskills.dev`);
-		if (disableGtag) {
-			window["ga-disable-UA-96179028-7"] = true;
-		}
-
-		// Setup gtag
-		window.gtag = function () {
-			if (disableGtag) {
-				console.log("Track", arguments);
-			} else {
-				dataLayer.push(arguments);
-			}
-		};
-
-		gtag("js", new Date());
-		gtag("config", "UA-96179028-7", {"send_page_view": false});
-	</script>
 
 	<title>Web Skills</title>
 
@@ -53,7 +30,7 @@
 	<meta name="description" content="A visual overview of useful skills to learn as a web developer">
 	<meta name="keywords"
 	      content="web, skills, learn, overview, links, html, css, javascript, accessibility, web components, pwa, build tools, frameworks, testing, architecture, design, ux, algorithms, backend">
-	<meta name="author" content="Andreas Mehlsen">
+	<meta name="author" content="original: Andreas Mehlsen">
 	<link rel="author" href="https://andreasbm.github.io">
 	<link rel="canonical" href="https://andreasbm.github.io/web-skills/">
 
@@ -114,7 +91,6 @@
 	<link rel="apple-touch-startup-image" href="www/splash-ipadpro2.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)">
 
 	<!-- Preload / connect -->
-	<link rel="preconnect" href="https://www.google-analytics.com">
 	<link rel="dns-prefetch" href="https://fonts.gstatic.com/">
 	<link rel="modulepreload" href="web_modules/lit-html.js" crossorigin="anonymous">
 	<link rel="modulepreload" href="web_modules/lit-element.js" crossorigin="anonymous">

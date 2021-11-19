@@ -73,6 +73,7 @@ export const fundamentalsCollection = {
 						links: [
 							["MDN - Adding vector graphics to the Web", "https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Adding_vector_graphics_to_the_Web"],
 							["SVG on the web", "https://svgontheweb.com/"],
+							["SVG-Editor", "https://yqnn.github.io/svg-path-editor/"]
 						]
 					}
 				},
